@@ -3,21 +3,21 @@ function Navigation() {
     <section>
       <div>
         <div>
-          <p></p>
-          <p></p>
+          <p>PetShop</p>
+          <p>Suprimentos de qualidade para animais de estimação.</p>
         </div>
 
         <div>
-          <p></p>
-          <a href="#"></a>
-          <a href="#"></a>
-          <a href="#"></a>
+          <p>Navegue</p>
+          <a href="#">Sobre Nós</a>
+          <a href="#">Comprar</a>
+          <a href="#">Contato</a>
         </div>
 
         <div>
-          <p></p>
-          <p></p>
-          <p></p>
+          <p>Contate-nos</p>
+          <p>E-mail: petshop@email.com</p>
+          <p>Celular: (00) 00000-0000</p>
         </div>
       </div>
     </section>

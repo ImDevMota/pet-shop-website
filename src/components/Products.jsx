@@ -1,103 +1,117 @@
+import { ChevronLeft, ChevronRight } from "lucide-react";
+
 function Products() {
   return (
     <section>
       <div>
-        <h2></h2>
+        <h2>Nossos Produtos</h2>
 
         <div>
-          <h3></h3>
+          <h3>Cachorro</h3>
 
-          <button></button>
+          <button>
+            <ChevronLeft />
+          </button>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Ração para Cachorro</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Brinquedo para Cachorro</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Shampoos para Cachorro</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Remédios para Cachorro</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
-          <button></button>
+          <button>
+            <ChevronRight />
+          </button>
         </div>
 
         <div>
-          <h3></h3>
+          <h3>Gato</h3>
 
-          <button></button>
+          <button>
+            <ChevronLeft />
+          </button>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Ração para Gato</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Brinquedo para Gato</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Shampoos para Gato</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Remédios para Gato</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
-          <button></button>
+          <button>
+            <ChevronRight />
+          </button>
         </div>
 
         <div>
-          <h3></h3>
+          <h3>Roedores</h3>
 
-          <button></button>
+          <button>
+            <ChevronLeft />
+          </button>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Ração para Roedores</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Brinquedo para Roedores</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Shampoos para Roedores</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
           <div>
             <img src="" alt="" />
-            <p></p>
-            <button></button>
+            <p>Remédios para Roedores</p>
+            <button>Adicione ao Carrinho</button>
           </div>
 
-          <button></button>
+          <button>
+            <ChevronRight />
+          </button>
         </div>
       </div>
     </section>

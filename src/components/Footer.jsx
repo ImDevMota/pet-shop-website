@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p></p>
+      <p>© 2025 PetShop. Todos os direitos reservados.</p>
     </footer>
   );
 }

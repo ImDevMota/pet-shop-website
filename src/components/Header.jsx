@@ -1,22 +1,29 @@
+import { ShoppingCartIcon } from "lucide-react";
+
 function Header() {
   return (
     <header>
       <div>
-        <h3></h3>
+        <h3>PetShop</h3>
 
         <nav>
           <ul>
             <li>
-              <p></p>
+              <p>Produtos</p>
             </li>
             <li>
-              <p></p>
+              <p>Sobre</p>
+            </li>
+            <li>
+              <p>Contato</p>
             </li>
           </ul>
         </nav>
 
         <div>
-          <a href=""></a>
+          <a href="">
+            <ShoppingCartIcon />
+          </a>
         </div>
       </div>
     </header>
