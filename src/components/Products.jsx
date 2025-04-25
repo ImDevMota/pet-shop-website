@@ -15,7 +15,7 @@ function Products() {
 
         <div className="flex flex-row gap-x-[2rem]">
           <button className="text-white">
-            <ChevronLeft size={80} />
+            <ChevronLeft size={100} />
           </button>
 
           <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
@@ -80,7 +80,7 @@ function Products() {
           </div>
 
           <button className="text-white">
-            <ChevronRight size={80} />
+            <ChevronRight size={100} />
           </button>
         </div>
 
@@ -152,7 +152,7 @@ function Products() {
           </div>
 
           <button className="text-white">
-            <ChevronRight size={80} />
+            <ChevronRight size={100} />
           </button>
         </div>
 
@@ -162,7 +162,7 @@ function Products() {
 
         <div className="flex flex-row gap-x-[2rem]">
           <button className="text-white">
-            <ChevronLeft size={80} />
+            <ChevronLeft size={100} />
           </button>
 
           <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">

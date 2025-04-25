@@ -15,11 +15,13 @@ function App() {
 
       <Products />
 
-      <Info />
+      <div className="bg-gradient-to-b from-[#4A90E2] to-[#F7D154]">
+        <Info />
 
-      <Contact />
+        <Contact />
 
-      <Navigation />
+        <Navigation />
+      </div>
 
       <Footer />
     </>
