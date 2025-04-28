@@ -1,5 +1,16 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import RacaoCachorroImg from "../assets/Racao-Cachorro.jpeg";
+import RacaoCachorroImg from "../assets/racao-cachorro.jpeg";
+import RacaoGatoImg from "../assets/racao-gato.jpeg";
+import RacaoRoedoresImg from "../assets/racao-roedores.jpeg";
+import BrinquedoRoedoresImg from "../assets/brinquedo-roedores.jpeg";
+import BrinquedoGatoImg from "../assets/brinquedo-gato.jpeg";
+import BrinquedoCachorroImg from "../assets/brinquedo-cachorro.jpeg";
+import ShampooCachorroImg from "../assets/shampoo-cachorro.jpeg";
+import ShampooGatoImg from "../assets/shampoo-gato.jpeg";
+import ShampooRoedoresImg from "../assets/shampoo-roedores.jpeg";
+import RemedioCachorroImg from "../assets/remedio-cachorro.jpeg";
+import RemedioGatoImg from "../assets/remedio-gato.jpeg";
+import RemedioRoedoresImg from "../assets/remedio-roedores.jpg";
 
 function Products() {
   return (
@@ -18,62 +29,62 @@ function Products() {
             <ChevronLeft size={100} />
           </button>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
               src={RacaoCachorroImg}
               alt=""
               className="w-[18rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Ração para Cachorro</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
 
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
           </div>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
-              src={RacaoCachorroImg}
+              src={BrinquedoCachorroImg}
               alt=""
               className="w-[18rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Brinquedo para Cachorro</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
           </div>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
-              src={RacaoCachorroImg}
+              src={ShampooCachorroImg}
               alt=""
               className="w-[18rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Shampoos para Cachorro</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
           </div>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
-              src={RacaoCachorroImg}
+              src={RemedioCachorroImg}
               alt=""
               className="w-[18rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Remédios para Cachorro</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
@@ -91,61 +102,61 @@ function Products() {
             <ChevronLeft size={80} />
           </button>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
-              src={RacaoCachorroImg}
+              src={RacaoGatoImg}
               alt=""
-              className="w-[18rem] h-[20rem] rounded-md"
+              className="w-[15rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Ração para Gato</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
           </div>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
-              src={RacaoCachorroImg}
+              src={BrinquedoGatoImg}
               alt=""
               className="w-[18rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Brinquedo para Gato</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
           </div>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
-              src={RacaoCachorroImg}
+              src={ShampooGatoImg}
               alt=""
               className="w-[18rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Shampoos para Gato</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
           </div>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
-              src={RacaoCachorroImg}
+              src={RemedioGatoImg}
               alt=""
               className="w-[18rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Remédios para Gato</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
@@ -165,61 +176,61 @@ function Products() {
             <ChevronLeft size={100} />
           </button>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
-              src={RacaoCachorroImg}
+              src={RacaoRoedoresImg}
               alt=""
               className="w-[18rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Ração para Roedores</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
           </div>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
-              src={RacaoCachorroImg}
+              src={BrinquedoRoedoresImg}
               alt=""
               className="w-[18rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Brinquedo para Roedores</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
           </div>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
-              src={RacaoCachorroImg}
+              src={ShampooRoedoresImg}
               alt=""
               className="w-[18rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Shampoos para Roedores</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
           </div>
 
-          <div className="bg-white rounded-md flex flex-col items-center gap-y-[0.5rem] py-[1rem]">
+          <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
             <img
-              src={RacaoCachorroImg}
+              src={RemedioRoedoresImg}
               alt=""
               className="w-[18rem] h-[20rem] rounded-md"
             />
-            <div className="flex flex-col w-[90%] gap-y-[0.5rem]">
+            <div className="flex flex-col w-[90%]">
               <p className="font-bold">Remédios para Roedores</p>
               <p className="font-bold text-[#2D5A27]">R$00,00</p>
-              <button className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md text-white">
+              <button className="px-[1rem] py-[0.7rem] mt-[0.5rem] bg-[#22C55E] rounded-md text-white">
                 Adicione ao Carrinho
               </button>
             </div>
