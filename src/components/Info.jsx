@@ -3,9 +3,12 @@ import InfoImg from "../assets/info.jpeg";
 
 function Info() {
   return (
-    <section className="pt-[20rem] flex justify-center">
+    <section className="pt-[20rem] flex justify-center ">
       <div className="w-[85%] flex flex-col">
-        <h2 className="font-bold text-[35px] text-white text-center mb-[1rem]">
+        <h2
+          id="info"
+          className="font-bold text-[35px] text-white text-center mb-[1rem] scroll-mt-14"
+        >
           Por que escolher nosso PetShop?
         </h2>
         <p className="text-center font-[13.6px] text-[#4B5563]">

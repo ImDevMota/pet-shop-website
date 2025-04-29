@@ -10,13 +10,31 @@ function Header() {
           <nav className="">
             <ul className="flex flex-row gap-[1.5rem]">
               <li>
-                <p className="text-[13.5px]">Produtos</p>
+                <a
+                  href="#products"
+                  className="text-[13.5px]"
+                  onClick={() => handleNavigation("products")}
+                >
+                  Produtos
+                </a>
               </li>
               <li>
-                <p className="text-[13.5px]">Sobre</p>
+                <a
+                  href="#info"
+                  className="text-[13.5px]"
+                  onClick={() => handleNavigation("info")}
+                >
+                  Sobre
+                </a>
               </li>
               <li>
-                <p className="text-[13.5px]">Contato</p>
+                <a
+                  href="#contact"
+                  className="text-[13.5px]"
+                  onClick={() => handleNavigation("contact")}
+                >
+                  Contato
+                </a>
               </li>
             </ul>
           </nav>

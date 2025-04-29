@@ -16,7 +16,7 @@ function Outdoor() {
           <div className="">
             <a
               className="px-[1rem] py-[0.5rem] bg-[#22C55E] rounded-md"
-              href="#"
+              href="#products"
             >
               Comprar
             </a>

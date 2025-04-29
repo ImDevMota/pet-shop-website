@@ -4,7 +4,10 @@ function Contact() {
   return (
     <section className="pt-[10rem] flex justify-center">
       <div className="flex flex-col w-[85%] justify-center items-center">
-        <h2 className="font-bold text-[35px] text-white text-center mb-[1rem]">
+        <h2
+          id="contact"
+          className="font-bold text-[35px] text-white text-center mb-[1rem] scroll-mt-32"
+        >
           Entre em Contato
         </h2>
         <p className="font-bold text-[13.6px] text-white text-center">
