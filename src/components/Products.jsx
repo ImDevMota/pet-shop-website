@@ -1,17 +1,17 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
-import RacaoCachorroImg from "../assets/racao-cachorro.jpeg";
-import RacaoGatoImg from "../assets/racao-gato.jpeg";
-import RacaoRoedoresImg from "../assets/racao-roedores.jpeg";
-import BrinquedoRoedoresImg from "../assets/brinquedo-roedores.jpeg";
-import BrinquedoGatoImg from "../assets/brinquedo-gato.jpeg";
-import BrinquedoCachorroImg from "../assets/brinquedo-cachorro.jpeg";
-import ShampooCachorroImg from "../assets/shampoo-cachorro.jpeg";
-import ShampooGatoImg from "../assets/shampoo-gato.jpeg";
-import ShampooRoedoresImg from "../assets/shampoo-roedores.jpeg";
-import RemedioCachorroImg from "../assets/remedio-cachorro.jpeg";
-import RemedioGatoImg from "../assets/remedio-gato.jpeg";
-import RemedioRoedoresImg from "../assets/remedio-roedores.jpg";
+import DogFoodImg from "../assets/racao-cachorro.jpeg";
+import CatFoodImg from "../assets/racao-gato.jpeg";
+import RodentFoodImg from "../assets/racao-roedores.jpeg";
+import RodentToyImg from "../assets/brinquedo-roedores.jpeg";
+import CatToyImg from "../assets/brinquedo-gato.jpeg";
+import DogToyImg from "../assets/brinquedo-cachorro.jpeg";
+import DogShampooImg from "../assets/shampoo-cachorro.jpeg";
+import CatShampooImg from "../assets/shampoo-gato.jpeg";
+import RodentShampooImg from "../assets/shampoo-roedores.jpeg";
+import DogMedicineImg from "../assets/remedio-cachorro.jpeg";
+import CatMedicineImg from "../assets/remedio-gato.jpeg";
+import RodentMedicineImg from "../assets/remedio-roedores.jpg";
 
 function Products() {
   const [startIndexCachorro, setStartIndexCachorro] = useState(0);
@@ -20,11 +20,7 @@ function Products() {
 
   const slidesCachorro = [
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
-      <img
-        src={RacaoCachorroImg}
-        alt=""
-        className="w-[18rem] h-[20rem] rounded-md"
-      />
+      <img src={DogFoodImg} alt="" className="w-[18rem] h-[20rem] rounded-md" />
       <div className="flex flex-col w-[90%]">
         <p className="font-bold">Ração para Cachorro</p>
         <p className="font-bold text-[#2D5A27]">R$00,00</p>
@@ -35,11 +31,7 @@ function Products() {
       </div>
     </div>,
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
-      <img
-        src={BrinquedoCachorroImg}
-        alt=""
-        className="w-[18rem] h-[20rem] rounded-md"
-      />
+      <img src={DogToyImg} alt="" className="w-[18rem] h-[20rem] rounded-md" />
       <div className="flex flex-col w-[90%]">
         <p className="font-bold">Brinquedo para Cachorro</p>
         <p className="font-bold text-[#2D5A27]">R$00,00</p>
@@ -50,7 +42,7 @@ function Products() {
     </div>,
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
       <img
-        src={ShampooCachorroImg}
+        src={DogShampooImg}
         alt=""
         className="w-[18rem] h-[20rem] rounded-md"
       />
@@ -64,7 +56,7 @@ function Products() {
     </div>,
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
       <img
-        src={RemedioCachorroImg}
+        src={DogMedicineImg}
         alt=""
         className="w-[18rem] h-[20rem] rounded-md"
       />
@@ -80,11 +72,7 @@ function Products() {
 
   const slidesGato = [
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
-      <img
-        src={RacaoGatoImg}
-        alt=""
-        className="w-[15rem] h-[20rem] rounded-md"
-      />
+      <img src={CatFoodImg} alt="" className="w-[15rem] h-[20rem] rounded-md" />
       <div className="flex flex-col w-[90%]">
         <p className="font-bold">Ração para Gato</p>
         <p className="font-bold text-[#2D5A27]">R$00,00</p>
@@ -95,11 +83,7 @@ function Products() {
     </div>,
 
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
-      <img
-        src={BrinquedoGatoImg}
-        alt=""
-        className="w-[18rem] h-[20rem] rounded-md"
-      />
+      <img src={CatToyImg} alt="" className="w-[18rem] h-[20rem] rounded-md" />
       <div className="flex flex-col w-[90%]">
         <p className="font-bold">Brinquedo para Gato</p>
         <p className="font-bold text-[#2D5A27]">R$00,00</p>
@@ -111,7 +95,7 @@ function Products() {
 
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
       <img
-        src={ShampooGatoImg}
+        src={CatShampooImg}
         alt=""
         className="w-[18rem] h-[20rem] rounded-md"
       />
@@ -126,7 +110,7 @@ function Products() {
 
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
       <img
-        src={RemedioGatoImg}
+        src={CatMedicineImg}
         alt=""
         className="w-[18rem] h-[20rem] rounded-md"
       />
@@ -143,7 +127,7 @@ function Products() {
   const slidesRoedores = [
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
       <img
-        src={RacaoRoedoresImg}
+        src={RodentFoodImg}
         alt=""
         className="w-[18rem] h-[20rem] rounded-md"
       />
@@ -158,7 +142,7 @@ function Products() {
 
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
       <img
-        src={BrinquedoRoedoresImg}
+        src={RodentToyImg}
         alt=""
         className="w-[18rem] h-[20rem] rounded-md"
       />
@@ -173,7 +157,7 @@ function Products() {
 
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
       <img
-        src={ShampooRoedoresImg}
+        src={RodentShampooImg}
         alt=""
         className="w-[18rem] h-[20rem] rounded-md"
       />
@@ -188,7 +172,7 @@ function Products() {
 
     <div className="bg-white w-[20rem] rounded-md flex flex-col items-center py-[1rem] gap-y-[0.2rem]">
       <img
-        src={RemedioRoedoresImg}
+        src={RodentMedicineImg}
         alt=""
         className="w-[18rem] h-[20rem] rounded-md"
       />
