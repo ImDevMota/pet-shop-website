@@ -1,4 +1,4 @@
-import OutdoorImg from "../assets/outdoor.png";
+import OutdoorImg from "../assets/outdoor.jpg";
 
 function Outdoor() {
   return (

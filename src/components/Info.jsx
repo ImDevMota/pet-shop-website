@@ -1,5 +1,5 @@
 import { Heart, Shield, Trophy, Truck } from "lucide-react";
-import InfoImg from "../assets/info.jpeg";
+import InfoImg from "../assets/info.jpg";
 
 function Info() {
   return (

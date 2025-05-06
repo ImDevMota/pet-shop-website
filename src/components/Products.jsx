@@ -1,16 +1,16 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
-import DogFoodImg from "../assets/racao-cachorro.jpeg";
-import CatFoodImg from "../assets/racao-gato.jpeg";
-import RodentFoodImg from "../assets/racao-roedores.jpeg";
-import RodentToyImg from "../assets/brinquedo-roedores.jpeg";
-import CatToyImg from "../assets/brinquedo-gato.jpeg";
-import DogToyImg from "../assets/brinquedo-cachorro.jpeg";
-import DogShampooImg from "../assets/shampoo-cachorro.jpeg";
-import CatShampooImg from "../assets/shampoo-gato.jpeg";
-import RodentShampooImg from "../assets/shampoo-roedores.jpeg";
-import DogMedicineImg from "../assets/remedio-cachorro.jpeg";
-import CatMedicineImg from "../assets/remedio-gato.jpeg";
+import DogFoodImg from "../assets/racao-cachorro.jpg";
+import CatFoodImg from "../assets/racao-gato.jpg";
+import RodentFoodImg from "../assets/racao-roedores.jpg";
+import RodentToyImg from "../assets/brinquedo-roedores.jpg";
+import CatToyImg from "../assets/brinquedo-gato.jpg";
+import DogToyImg from "../assets/brinquedo-cachorro.jpg";
+import DogShampooImg from "../assets/shampoo-cachorro.jpg";
+import CatShampooImg from "../assets/shampoo-gato.jpg";
+import RodentShampooImg from "../assets/shampoo-roedores.jpg";
+import DogMedicineImg from "../assets/remedio-cachorro.jpg";
+import CatMedicineImg from "../assets/remedio-gato.jpg";
 import RodentMedicineImg from "../assets/remedio-roedores.jpg";
 
 function Products() {
