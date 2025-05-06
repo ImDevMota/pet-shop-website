@@ -13,13 +13,13 @@ function Navigation() {
           <p className="text-white font-bold">Navegue</p>
 
           <div className="flex flex-col gap-y-[0.8rem] mt-[1rem]">
-            <a href="#" className="text-[13.6px] text-[#4B5563]">
+            <a href="#info" className="text-[13.6px] text-[#4B5563]">
               Sobre Nós
             </a>
-            <a href="#" className="text-[13.6px] text-[#4B5563]">
+            <a href="#products" className="text-[13.6px] text-[#4B5563]">
               Comprar
             </a>
-            <a href="#" className="text-[13.6px] text-[#4B5563]">
+            <a href="#contact" className="text-[13.6px] text-[#4B5563]">
               Contato
             </a>
           </div>
