@@ -1,8 +1,17 @@
-# React + Vite
+# Home Page - E-commerce PetShop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Esse Repositório é destinado ao projeto de uma home page de um e-commerce de um petshop.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas:
+* React.js
+* Vite (Para criar a aplicação React)
+* Tailwind
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Home Page - PetShop E-commerce
+
+### This repository is intended for the design of a home page for a pet shop e-commerce.
+
+## Technologies Used:
+* React.js
+* Vite (To create the React application)
+* Tailwind
